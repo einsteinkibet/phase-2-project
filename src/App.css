@@ -468,7 +468,7 @@ footer {
       margin: 0 auto;
       margin-top: 137px;
       padding: 40px;
-
+      align-self: cente;
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
@@ -633,4 +633,12 @@ footer {
      background-color: #141415;
      color: #ffffff;
   }
- 
+ .recipe-details{
+  align-self: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  text-align: center;
+
+ }
