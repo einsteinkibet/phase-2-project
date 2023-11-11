@@ -6,12 +6,12 @@ const Header = () => {
   return (
     <header>
         <h1 className="centered-h1">Recipe App</h1>
-      <nav className="navbar"> {/* Apply a CSS class for styling */}
+      <nav className="navbar"> 
       <div class="logo">
           <img src="recipeIcon.jpg" alt="Logo"/>
         </div>
         <p id="tasty">Tasty<span>Tracks</span></p>
-        <ul className="nav-list"> {/* Apply a CSS class for styling */}
+        <ul className="nav-list"> 
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -26,6 +26,9 @@ const Header = () => {
           </li>
           <li>
             <Link to="/saved">Saved Recipes</Link>
+          </li>
+          <li>
+            <Link to="/add">add</Link>
           </li>
         </ul>
       </nav>

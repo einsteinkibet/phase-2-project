@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 
 const FeaturedRecipes = () => {
-  // Define your featured recipes here
+  
   const recipes = [
     {
       id: 1,
