@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-
+//Footer jsx
 function Footer (){
     return (
           

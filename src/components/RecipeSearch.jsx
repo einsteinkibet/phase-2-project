@@ -57,7 +57,7 @@ const RecipeSearch = ({ onSaveRecipe }) => {
 
   useEffect(() => {
     fetchDataFromApi();
-  }, []); // Run once when the component mounts
+  }, []); 
 
   return (
     <div>
