@@ -11,7 +11,6 @@ const RecipeForm = ({ onSaveRecipe }) => {
 
     // Create a new recipe object
     const newRecipe = {
-      id,
       title,
       ingredients,
       instructions,
@@ -32,7 +31,6 @@ const RecipeForm = ({ onSaveRecipe }) => {
         onSaveRecipe(newRecipe);
 
         // Clear the form fields
-        setId('');
         setTitle('');
         setIngredients('');
         setInstructions('');
@@ -48,19 +46,13 @@ const RecipeForm = ({ onSaveRecipe }) => {
     <div>
       <h2>Add Recipe</h2>
       <form onSubmit={handleFormSubmit}>
-        {/* Add input fields for title, ingredients, and instructions */}
-        <label>id:</label>
-        <textarea
-          value={id}
-          onChange={(e) => setIngredients(e.target.value)}
-        />
         <label>Title:</label>
         <input
           type="text"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
         />
-        
+
         <label>Ingredients:</label>
         <textarea
           value={ingredients}
